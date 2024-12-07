@@ -13,4 +13,4 @@ dependencies {
     addComposeOfficialDependencies()
     addCoreAndroidDependencies()
     addThirdPartyUiDependencies()
-}
+}*/

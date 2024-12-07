@@ -84,7 +84,8 @@ dependencies {
     implementation("androidx.palette:palette:1.0.0")
     implementation("com.github.Gurupreet:FontAwesomeCompose:1.0.0")
     implementation("androidx.compose.ui:ui-tooling-preview:1.6.0") // Update version if needed
-    implementation("androidx.compose.ui:ui-tooling:1.6.0") // For interactive preview in Android Studio
+    implementation("androidx.compose.ui:ui-tooling:1.6.0")
+    implementation(libs.androidx.junit.ktx) // For interactive preview in Android Studio
 
 
     testImplementation(libs.junit)
