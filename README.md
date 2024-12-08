@@ -42,10 +42,13 @@ Cilj ovog tutorijala je da demonstrira moć Jetpack Compose-a u razvoju Android 
 ## Demo UI
 https://github.com/anastasijavasicc/InstagramDemo/blob/main/Screens/petal_20241208_161147.mp4
 
+## Demo UI
+
 <video controls autoplay loop width="800">
-  <source src="https://github.com/anastasijavasicc/InstagramDemo/blob/main/Screens/petal_20241208_161147.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/anastasijavasicc/InstagramDemo/blob/main/Screens/petal_20241208_161147.mp4" type="video/mp4">
   Vaš pretraživač ne podržava video prikaz. <a href="https://raw.githubusercontent.com/username/repository/main/Screens/demo.mp4">Preuzmite video ovde</a>.
 </video>
+
 
 ## Poređenje sa tradicionalnim XML pristupom
 **Tabela 1.** Poređenje Jetpack Compose-a sa tradicionalnim XML-om za izgradnju korisničkog interfejsa (UI)
