@@ -1,5 +1,6 @@
 # InstagramDemo
 **InstagramDemo** je mobilna aplikacija fokusirana na demonstraciju kreiranja korisničkog interfejsa pomoću najnovije tehnologije **Jetpack Compose**.
+
 ##Svrha tutorijala
 Cilj ovog tutorijala je da demonstrira moć Jetpack Compose-a u razvoju Android aplikacija kroz praktičan primer - Instagram Demo Aplikaciju. Tutorijal ima za cilj da:
  - Prikaže osnovne koncepte deklarativnog programiranja u Jetpack Compose-u.
@@ -18,6 +19,7 @@ Cilj ovog tutorijala je da demonstrira moć Jetpack Compose-a u razvoju Android 
 4. **Profil ekran**: Detaljan prikaz sa informacijama o korisniku, objavama, brojem pratilaca i praćenja.
 5. **Podrška za tamni režim**: Integracija sa tamnim modom Android-a za bolju upotrebljivost u uslovima slabog osvetljenja.
 6. **Modularnost komponenti**: Komponente poput pregleda priča, stavki objava i donje navigacione trake implementirane su kao višekratno upotrebljivi `Composable` elementi.
+
 
 > [!TIP]
 > ## Korišćenje aplikacije
@@ -61,7 +63,7 @@ Cilj ovog tutorijala je da demonstrira moć Jetpack Compose-a u razvoju Android 
 
 ### 1. **Composable funkcije**
 - Osnovni gradivni blokovi u Jetpack Compose-u.
-- Svaka funkcija označena anotacijom **@Composable* predstavlja deo korisničkog interfejsa.
+- Svaka funkcija označena anotacijom *@Composable* predstavlja deo korisničkog interfejsa.
 - One su reaktivne, što znači da automatski ažuriraju prikaz kada se podaci promene.
 
 ```kotlin
@@ -71,10 +73,10 @@ fun InstagramHome() {}
 
 ### 2. **Preview funkcija**
 - Za generisanje pogleda Composable funkcija.
-- Umesto instaliranja APK-a na emulatoru ili virtuelnom uređaju, pomoću ove funkcije možemo pogledati UI direktno unutar IDE-a. **@Preview* anotacija se koristi za označavanje ovih funkcija.
+- Umesto instaliranja APK-a na emulatoru ili virtuelnom uređaju, pomoću ove funkcije možemo pogledati UI direktno unutar IDE-a. *@Preview* anotacija se koristi za označavanje ovih funkcija.
 
 ### 3. **State Management (Upravljanje stanjem)**
-- Omogućava praćenje i upravljanje podacima koji se dinamički menjaju tokom rada aplikacije. 
+- `State` omogućava praćenje i upravljanje podacima koji se dinamički menjaju tokom rada aplikacije. 
 - State prati vrednosti koje utiču na prikaz korisničkog interfejsa.
 - Promena vrednosti u State-u automatski osvežava deo interfejsa koji zavisi od tih podataka.
 - `remember` i `mutableStateOf` se koriste za praćenje stanja korisničkog interfejsa, kao što je praćenje da li je objava lajkovana.
@@ -88,7 +90,7 @@ var percent = remember { Animatable(0f) }
 ```
 
 ### 4. **Modifier**
-- Objekat koji se koristi za prilagođavanje izgleda, rasporeda i ponašanja komponenata. Modifier može menjati dimenzije, poziciju, padding, margine, pozadinu, ponašanje na dodir i druge aspekte komponente.
+- `Modifier` je objekat koji se koristi za prilagođavanje izgleda, rasporeda i ponašanja komponenata. Modifier može menjati dimenzije, poziciju, padding, margine, pozadinu, ponašanje na dodir i druge aspekte komponente.
 
 ```kotlin
 modifier = Modifier
