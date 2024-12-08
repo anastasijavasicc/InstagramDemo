@@ -210,8 +210,7 @@ Ova aplikacija demonstrira moć Jetpack Compose-a u kreiranju potpuno funkcional
 1. **Efikasno renderovanje UI-a**: Deklarativna priroda Jetpack Compose-a osigurava da se samo potrebni delovi korisničkog interfejsa ponovo renderuju kada dođe do promene stanja.
 2. **Responzivni dizajn**: Aplikacija se prilagođava različitim veličinama ekrana i orijentacijama.
 3. **Višekratna upotreba koda**: Višekratno upotrebljivi `Composable` elementi pojednostavljuju održavanje koda i podstiču čistiju arhitekturu.
-4. 
----
+   
 
 ### **Alternativne tehnologije: Zašto Jetpack Compose?** 
 
@@ -236,6 +235,7 @@ Instagram Demo Aplikacija pokazuje kako Jetpack Compose može transformisati raz
 
 Kroz izradu ovog projekta, stekla sam dublje razumevanje mogućnosti Jetpack Compose-a i njegove uloge u oblikovanju budućnosti razvoja za Android platformu. Ovaj projekat služi kao dokaz njegove efikasnosti i pogodnosti za programere.
 
+---
 
 
 
