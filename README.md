@@ -1,7 +1,8 @@
 # InstagramDemo
 **InstagramDemo** je mobilna aplikacija fokusirana na demonstraciju kreiranja korisničkog interfejsa pomoću najnovije tehnologije **Jetpack Compose**.
 
-##Svrha tutorijala
+## Svrha tutorijala
+
 Cilj ovog tutorijala je da demonstrira moć Jetpack Compose-a u razvoju Android aplikacija kroz praktičan primer - Instagram Demo Aplikaciju. Tutorijal ima za cilj da:
  - Prikaže osnovne koncepte deklarativnog programiranja u Jetpack Compose-u.
  - Pokaže kako modularnost i višekratno upotrebljivi Composable elementi mogu ubrzati i pojednostaviti razvoj korisničkog interfejsa.
