@@ -50,15 +50,15 @@ Cilj ovog tutorijala je da demonstrira moć Jetpack Compose-a u razvoju Android 
 | **Višekratna upotreba koda**  | Lako putem `Composable` funkcija           | Složenije putem `include` i prilagodbi          |
 | **Podrška za stanje**         | Jednostavna (`remember`, `State`)          | Zahteva dodatni kod                             |
      
-**Prednosti Jetpack Compose-a**
- - Deklarativni model: Potpuno je deklarativan, što znači da možete opisati svoje UI komponente pozivanjem unapred definisanih funkcija.
- - Manje koda: Sve UI komponente se kreiraju direktno u Kotlin kodu.
- - Kompatibilan: Lako je kompatibilan sa postojećim prikazima (views) prisutnim u Androidu.
- - Modularnost: Višekratno upotrebljivi Composable elementi omogućavaju lakše održavanje i proširivanje aplikacije.
- - Brže prototipiranje: Sa alatima kao što su Preview i Hot Reload, omogućava brzo testiranje i iteracije.
- - Lak za održavanje: Pošto je celokupna baza koda aplikacije prisutna u jednoj datoteci, postaje lakše upravljati i održavati kod aplikacije.
- - Napisan u Kotlinu: Aplikacije napisane koristeći Jetpack Compose koriste 100% Kotlin programski jezik.
- - Tamni režim: Automatska podrška za prilagođavanje teme aplikacije.
+## Prednosti Jetpack Compose-a
+ - **Deklarativni model**: Potpuno je deklarativan, što znači da možete opisati svoje UI komponente pozivanjem unapred definisanih funkcija.
+ - **Manje koda**: Sve UI komponente se kreiraju direktno u Kotlin kodu.
+ - **Kompatibilan**: Lako je kompatibilan sa postojećim prikazima (views) prisutnim u Androidu.
+ - **Modularnost**: Višekratno upotrebljivi Composable elementi omogućavaju lakše održavanje i proširivanje aplikacije.
+ - **Brže prototipiranje**: Sa alatima kao što su Preview i Hot Reload, omogućava brzo testiranje i iteracije.
+ - **Lak za održavanje**: Pošto je celokupna baza koda aplikacije prisutna u jednoj datoteci, postaje lakše upravljati i održavati kod aplikacije.
+ - **Napisan u Kotlinu**: Aplikacije napisane koristeći Jetpack Compose koriste 100% Kotlin programski jezik.
+ - **Tamni režim**: Automatska podrška za prilagođavanje teme aplikacije.
 
 ## Komponente Jetpack Compose-a korišćene u aplikaciji
 
