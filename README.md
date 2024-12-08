@@ -40,7 +40,6 @@ Cilj ovog tutorijala je da demonstrira moć Jetpack Compose-a u razvoju Android 
 ---
 
 ## Demo UI
-
 <div align="center">
   <strong>Declarative UI</strong>
 </div>
@@ -50,6 +49,8 @@ Cilj ovog tutorijala je da demonstrira moć Jetpack Compose-a u razvoju Android 
 <br />
 <div align="center">
  <img src = "https://github.com/anastasijavasicc/InstagramDemo/blob/main/Screens/Screenshot_20241208_160652_com.example.myrecepies.jpg" width = "300px"/>
+ <img src = "https://github.com/anastasijavasicc/InstagramDemo/blob/main/Screens/Screenshot_20241208_160659_com.example.myrecepies.jpg" width = "300px"/>
+ <img src = "https://github.com/anastasijavasicc/InstagramDemo/blob/main/Screens/Screenshot_20241208_160709_com.example.myrecepies.jpg" width = "300px"/>
 </div>
 
 
