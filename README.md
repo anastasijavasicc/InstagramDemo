@@ -25,6 +25,12 @@ Cilj ovog tutorijala je da demonstrira moć Jetpack Compose-a u razvoju Android 
 > [!TIP]
 > ## Korišćenje aplikacije
 >
+> * **Uključivanje zavisnosti u projekat**:
+>   * implementation 'androidx.activity:activity-compose:1.4.0'
+>   * implementation 'androidx.lifecycl e:lifecycle-viewmodel-compose:1.0.0-alpha07'
+>   * implementation 'androidx.compose.runtime:runtime-livedata:1.0.4'
+> * **Za potrebe asinhronog programiranja uključiti i**:
+>   * implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.1' 
 > * **Home Feed**:
 >   * Početna stranica prikazuje listu objava korisnika
 >   * Sadrži gornju navigacionu traku sa logotipom i donju navigaciju za brzo prebacivanje između ekrana.
